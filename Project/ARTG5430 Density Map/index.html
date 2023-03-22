@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Franklin:wght@300;400;700;800&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1>Hurricanes and Typhoons, 1851-2014</h1>
+    <div id="vizWrapper">
+      <svg id="map">
+        <rect id="ocean" x="0" y="0" fill="#8AAAE5" />
+      </svg>
+      <div id="tooltip"></div>
+    </div>
+    <p>
+      Data source:
+      <a href="https://www.kaggle.com/datasets/noaa/hurricane-database">NOAA</a>
+    </p>
+    <p>
+      Inspiration source:
+      <a href="https://observablehq.com/@onoratod/animate-a-path-in-d3"
+        >Danny</a
+      >
+    </p>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
