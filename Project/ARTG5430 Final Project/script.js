@@ -171,8 +171,8 @@ Promise.all([
   // })
   const dots = drawDots({
     data: landfallData,
-    dotSize: 3,
-    opacity: 0.8,
+    dotSize: 8,
+    opacity: 0.5,
     fill: 'whitesmoke',
   })
   // --------------------------------------------------------------
