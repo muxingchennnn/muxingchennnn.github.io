@@ -18,12 +18,12 @@
 >
 	<div class="content">
 		<a class="block mb-2 font-700 text-5xl tracking-wide" href={prop.source}> {prop.title}</a>
-		<div class="types mb-4">
+		<div class="types mb-4 flex gap-2">
 			{#each prop.types as type}
 				<span class="type text-2xl font-200">#{type}</span>
 			{/each}
 		</div>
-		<div class="skills">
+		<div class="skills flex gap-2">
 			{#each prop.skills as skill}
 				<span class="skill">{skill}</span>
 			{/each}
@@ -54,10 +54,6 @@
 		font-size: 1.5rem;
 	}
 
-	.skills {
-		display: flex;
-		gap: 0.5rem;
-	}
 
 	.skill {
 		font-weight: 400;
