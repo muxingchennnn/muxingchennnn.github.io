@@ -4,7 +4,7 @@ const data = [
     title: 'Visualizing Hurricane Landfalls',
     types: ['Interactive Visualization'],
     skills: ['D3.js', 'HTML/CSS/JS'],
-    source: 'https://muxingchennnn.github.io/hurricane-landfall/',
+    source: 'https://muxingchennnn.github.io/hurricane-landfalls/',
   },
   {
     id: 2,
