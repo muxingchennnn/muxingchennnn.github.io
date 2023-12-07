@@ -1,5 +1,5 @@
 <div class="flex items-center justify-center font-neue-montreal font-400">
-	Welcome!👋 &nbsp I'm gradually building up my site.🤯 &nbsp Stay tuned for something awesome!✨
+	Welcome!👋 &nbsp I'm gradually building up my site, as well as redesigning or refining my works.🤯 &nbsp Stay tuned for something awesome!✨
 </div>
 
 <style>

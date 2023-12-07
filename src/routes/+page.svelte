@@ -18,7 +18,7 @@
 		<!-- <Header /> -->
 		<Intro />
 	</section>
-	<p class="font-romie italic text-2xl">Works</p>
+	<p class="font-romie italic text-2xl">Work</p>
 	{#each project as prop (prop.id)}
 		<Work
 			{prop}

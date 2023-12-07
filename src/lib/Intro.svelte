@@ -11,7 +11,7 @@
 	<p class="font-romie italic text-8xl">Designer & Researcher</p>
 	<!-- <div class="hr"></div> -->
 	<p class="font-neue-montreal font-200 text-2xl text-right">
-		among many other <span class="font-romie italic text-2xl">pursuits.</span>
+		among many other <span class="font-romie italic text-4xl">&nbsppursuits.</span>
 	</p>
 </div>
 
@@ -21,7 +21,7 @@
 		transform: translateY(-10%);
 		margin-bottom: 6rem;
 
-		width: 60vw;
+		max-width: 1100px;
 
 		/* display: flex; */
 		/* flex-direction: column;
