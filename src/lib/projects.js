@@ -35,7 +35,7 @@ const data = [
     types: ['Book Design', 'Static Visualization'],
     skills: ['Adobe Indesign', 'Adobe Illustrator'],
     source:
-      'https://drive.google.com/file/d/1mXGg16UPuCtsP0UC7mAvPZd9D7lh7FLK/view?usp=sharing',
+      'https://drive.google.com/file/d/1bOPnViy6XdTrqlc96wUjtNpKUZYitJ47/view?usp=sharing',
   },
 ]
 
