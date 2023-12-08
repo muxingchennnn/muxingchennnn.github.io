@@ -4,14 +4,14 @@ const data = [
     title: 'Explore Hurricane Landfalls',
     types: ['Interactive Visualization'],
     skills: ['D3.js', 'HTML/CSS/JS'],
-    source: 'https://muxingchennnn.github.io/hurricane-landfalls/',
+    source: 'https://hurricane-landfalls.vercel.app/',
   },
   {
     id: 2,
     title: 'Into the Loop: MFA Thesis Exhibition 2023',
     types: ['Web Design & Development'],
     skills: ['HTML/CSS/JS', 'GSAP'],
-    source: 'https://muxingchennnn.github.io/exhibition-demo/',
+    source: 'https://camd-mfa-exhibition-2023.vercel.app/',
   },
   {
     id: 3,
