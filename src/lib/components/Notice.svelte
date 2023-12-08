@@ -1,10 +1,11 @@
 <div class="flex items-center justify-center font-neue-montreal font-400">
-	Welcome!👋 &nbsp I'm gradually building up my site, as well as redesigning or refining my works.🤯 &nbsp Stay tuned for something awesome!✨
+	Welcome!👋 &nbsp I'm gradually building up my site and refining my works.🤯 &nbsp Stay tuned for something awesome!✨
 </div>
 
 <style>
 	div {
-		height: 2rem;
+		padding-top: .25rem;
+		padding-bottom: .25rem;
 		position: relative;
 		width: 100vw;
 		left: 50%;

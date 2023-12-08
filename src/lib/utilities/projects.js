@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: 'Explore Hurricane Landfalls',
+    title: 'Hurricane Landfalls Explorer',
     types: ['Interactive Visualization'],
     skills: ['D3.js', 'HTML/CSS/JS'],
     source: 'https://hurricane-landfalls.vercel.app/',

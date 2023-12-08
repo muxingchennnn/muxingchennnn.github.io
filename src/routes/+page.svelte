@@ -1,18 +1,19 @@
 <script>
-	import project from '$lib/projects.js';
-	import Notice from '$lib/Notice.svelte';
-	import Header from '$lib/Header.svelte';
-	import Intro from '$lib/Intro.svelte';
-	import Work from '$lib/Work.svelte';
+	import Notice from '$lib/components/Notice.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Intro from '$lib/components/Intro.svelte';
+	import Work from '$lib/components/Work.svelte';
+	import project from '$lib/utilities/projects.js';
+	import { useLenis } from '$lib/utilities/lenis.js'
 
-	let hoveredButton = null;
+	let hoveredProject = null;
 
 	function handleHover(id, isHovered) {
-		hoveredButton = isHovered ? id : null;
+		hoveredProject = isHovered ? id : null;
 	}
 </script>
 
-<main>
+<main use:useLenis>
 	<section>
 		<Notice />
 		<!-- <Header /> -->
@@ -23,8 +24,8 @@
 		<Work
 			{prop}
 			on:hover={(e) => handleHover(prop.id, e.detail)}
-			hovered={hoveredButton === prop.id}
-			notHovered={hoveredButton !== null && hoveredButton !== prop.id}
+			hovered={hoveredProject === prop.id}
+			notHovered={hoveredProject !== null && hoveredProject !== prop.id}
 		/>
 	{/each}
 </main>

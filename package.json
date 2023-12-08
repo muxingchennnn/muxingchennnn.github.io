@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@studio-freight/lenis": "^1.0.29",
 		"@vercel/analytics": "^1.1.1"
 	}
 }
