@@ -1,6 +1,6 @@
 <div class="intro">
 	<p class="font-neue-montreal font-200 text-2xl">
-		I'm <span class="font-romie italic text-2xl">Muxing Chen,</span>
+		Hi, I'm <span class="font-romie italic text-2xl">Muxing Chen</span>
 	</p>
 	<!-- <div class="hr"></div> -->
 	<p class="font-neue-montreal text-8xl font-400 mb-2 flex justify-between">
@@ -11,7 +11,7 @@
 	<p class="font-romie italic text-8xl">Designer & Researcher</p>
 	<!-- <div class="hr"></div> -->
 	<p class="font-neue-montreal font-200 text-2xl text-right">
-		among many other <span class="font-romie italic text-4xl">&nbsppursuits.</span>
+		among many other <span class="font-romie italic text-4xl">&nbsppursuits</span>
 	</p>
 </div>
 
