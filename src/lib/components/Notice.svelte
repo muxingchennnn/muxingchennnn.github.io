@@ -1,5 +1,5 @@
 <div class="flex items-center justify-center font-neue-montreal font-400">
-	Welcome!👋 &nbsp I'm gradually building up my site and refining my works.🤯 &nbsp Stay tuned for something awesome!✨
+	<p>Welcome!👋 &nbsp I'm gradually building up my site and refining my works.🤯 &nbsp Stay tuned for something awesome!✨</p>
 </div>
 
 <style>
@@ -13,6 +13,15 @@
 		margin-left: -50vw;
 		margin-right: -50vw;
 
+		background-color: #101213;
+		color: #f8f8f8;
+	}
+
+	p {
+		
+		max-width: 90vw;
+		/* padding-left: 1rem;
+		padding-right: 1rem; */
 		background-color: #101213;
 		color: #f8f8f8;
 	}
