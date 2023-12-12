@@ -10,7 +10,7 @@ const data = [
     id: 2,
     title: 'NSF CISE Awards Search Interface',
     types: ['Web Design & Development', 'User Interface'],
-    skills: ['Svelte', 'HTML/CSS/JS'],
+    skills: ['Svelte'],
     source: 'https://nsf-search.vercel.app/',
   },
   {
