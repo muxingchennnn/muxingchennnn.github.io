@@ -8,13 +8,20 @@ const data = [
   },
   {
     id: 2,
+    title: 'NSF CISE Awards Search Interface',
+    types: ['Web Design & Development', 'User Interface'],
+    skills: ['Svelte', 'HTML/CSS/JS'],
+    source: 'https://nsf-search.vercel.app/',
+  },
+  {
+    id: 3,
     title: 'Into the Loop: MFA Thesis Exhibition 2023',
     types: ['Web Design & Development'],
     skills: ['HTML/CSS/JS', 'GSAP'],
     source: 'https://camd-mfa-exhibition-2023.vercel.app/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Visualizing Bird Strikes',
     types: ['Static Visualization'],
     skills: ['Adobe Illustrator'],
@@ -22,7 +29,7 @@ const data = [
       'https://drive.google.com/file/d/1UOBDDE8aUg5915BM9cu6vCDAIcHra33f/view?usp=sharing',
   },
   {
-    id: 4,
+    id: 5,
     title: 'A Map of Visual Perception',
     types: ['Concept Map'],
     skills: ['Adobe Illustrator'],
@@ -30,7 +37,7 @@ const data = [
       'https://drive.google.com/file/d/1mXGg16UPuCtsP0UC7mAvPZd9D7lh7FLK/view?usp=sharing',
   },
   {
-    id: 5,
+    id: 6,
     title: 'A Brief History of Hurricanes',
     types: ['Book Design', 'Static Visualization'],
     skills: ['Adobe Indesign', 'Adobe Illustrator'],
