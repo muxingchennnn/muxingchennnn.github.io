@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: 'Hurricane Landfall Explorer',
+    title: 'Hurricane Landfalls Explorer',
     types: ['Interactive Visualization'],
     skills: ['D3.js', 'HTML/CSS/JS'],
     source: 'https://hurricane-landfalls.vercel.app/',
@@ -33,8 +33,7 @@ const data = [
     title: 'A Map of Visual Perception',
     types: ['Concept Map'],
     skills: ['Adobe Illustrator'],
-    source:
-      'https://drive.google.com/file/d/1mXGg16UPuCtsP0UC7mAvPZd9D7lh7FLK/view?usp=sharing',
+    source: '/A Concept Map of Visual Perception.pdf',
   },
   {
     id: 6,
