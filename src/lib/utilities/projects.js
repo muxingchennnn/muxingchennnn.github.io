@@ -25,8 +25,7 @@ const data = [
     title: 'Visualizing Bird Strikes',
     types: ['Static Visualization'],
     skills: ['Adobe Illustrator'],
-    source:
-      'https://drive.google.com/file/d/1UOBDDE8aUg5915BM9cu6vCDAIcHra33f/view?usp=sharing',
+    source: 'Visualizing Bird Strikes.pdf',
   },
   {
     id: 5,
@@ -40,8 +39,7 @@ const data = [
     title: 'A Brief History of Hurricanes',
     types: ['Book Design', 'Static Visualization'],
     skills: ['Adobe Indesign', 'Adobe Illustrator'],
-    source:
-      'https://drive.google.com/file/d/1bOPnViy6XdTrqlc96wUjtNpKUZYitJ47/view?usp=sharing',
+    source: '/A Brief History of Hurricanes.pdf',
   },
 ]
 
