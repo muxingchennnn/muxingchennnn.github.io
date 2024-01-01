@@ -3,7 +3,7 @@ const data = [
     id: 1,
     title: 'US Hurricane Landfalls Explorer',
     types: ['Interactive Visualization'],
-    skills: ['SvelteKit', 'D3.js'],
+    skills: ['SvelteKit', 'D3.js', 'Tailwind CSS'],
     source: 'https://us-hurricane-landfalls.vercel.app/',
   },
   {
