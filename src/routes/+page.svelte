@@ -30,7 +30,7 @@
       notHovered={hoveredProject !== null && hoveredProject !== prop.id}
     />
   {/each}
-  <Toast
+  <!-- <Toast
     transition={fly}
     params={{ x: 200 }}
     position="top-right"
@@ -38,7 +38,7 @@
   >
     Welcome!👋 &nbsp I'm gradually building up my site and refining my works.🤯 <br
     /><br />Stay tuned for something awesome!✨
-  </Toast>
+  </Toast> -->
 </main>
 
 <style>
