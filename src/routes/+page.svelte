@@ -15,9 +15,9 @@
   }
 </script>
 
-<main use:useLenis class="relative">
+<main use:useLenis>
   <section>
-    <Notice />
+    <!-- <Notice /> -->
     <!-- <Header /> -->
     <Intro />
   </section>
@@ -30,16 +30,17 @@
       notHovered={hoveredProject !== null && hoveredProject !== prop.id}
     />
   {/each}
-  <!-- <Toast
-    transition={fly}
-    params={{ x: 200 }}
-    position="top-right"
-    divClass="bg-gray-700"
-  >
-    Welcome!👋 &nbsp I'm gradually building up my site and refining my works.🤯 <br
-    /><br />Stay tuned for something awesome!✨
-  </Toast> -->
 </main>
+
+<Toast
+  position="top-right"
+  class="w-full bg-foreground text-background"
+  contentClass="w-full text-sm"
+  dismissable="true"
+>
+  Welcome!👋&nbspI'm gradually building up my site and refining my works.🤯 <br
+  /><br />Stay tuned for something awesome!✨
+</Toast>
 
 <style>
   section {
