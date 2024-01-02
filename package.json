@@ -20,8 +20,9 @@
 		"flowbite": "^2.2.1",
 		"flowbite-svelte": "^0.44.21",
 		"postcss": "^8.4.32",
-		"prettier": "^3.0.0",
-		"prettier-plugin-svelte": "^3.0.0",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-tailwindcss": "^0.5.10",
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.3.6",
 		"vite": "^5.0.0"
