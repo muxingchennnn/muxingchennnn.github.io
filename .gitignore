@@ -1,1 +1,30 @@
-node_modules
+# Node modules
+node_modules/
+
+# SvelteKit build output
+.svelte-kit/
+build/
+.output
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+!.env.test
+
+# IDE specific files
+.vscode/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
