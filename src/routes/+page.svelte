@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Grid from "$lib/components/Grid.svelte";
+	import Intro from "$lib/components/Intro.svelte";
+</script>
+
+<div class="h-16"></div>
+<Grid />
+<Intro />
+
+<!-- <p>testing if shaking</p>
+<p>testing if shaking</p> -->
+
+<style>
+</style>
