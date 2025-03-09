@@ -1,17 +1,42 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@layer base {
+	:root {
+		--breakpoint-xxs: 360px;
+		--breakpoint-xs: 480px;
+		--breakpoint-sm: 640px;
+		--breakpoint-md: 768px;
+		--breakpoint-lg: 1024px;
+		--breakpoint-xl: 1440px;
+	}
+
+	body {
+		background-color: var(--color-background);
+		color: var(--color-foreground);
+		font-family: var(--font-sans);
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5rem;
+		letter-spacing: -0.011em;
+		font-optical-sizing: auto;
+		text-rendering: optimizeLegibility;
+		/* -webkit-font-smoothing: antialiased; */
+		/* -moz-osx-font-smoothing: grayscale; */
+	}
+}
 
 @theme {
-	/* --breakpoint-*: initial reset all of the default breakpoints */
 	--breakpoint-*: initial;
+	--breakpoint-xxs: 360px;
 	--breakpoint-xs: 480px;
 	--breakpoint-sm: 640px;
 	--breakpoint-md: 768px;
 	--breakpoint-lg: 1024px;
 	--breakpoint-xl: 1440px;
 
-	--font-sans: 'Geist Variable', 'sans-serif';
-	--font-serif: 'Source Serif 4 Variable', 'serif';
-	--font-display: 'Romie', 'serif';
+	--font-sans: "Geist Variable", sans-serif;
+	--font-serif: "Source Serif 4 Variable", serif;
+	--font-display: "Romie", serif;
 
 	--color-gray-100: #f5f5f5;
 	--color-gray-200: #e6e6e6;
@@ -25,4 +50,34 @@
 
 	--color-background: #f8f8f8;
 	--color-foreground: #101213;
+}
+
+/* prettier-ignore */
+@utility grid-ctn {
+	@apply grid grid-cols-4 w-[90vw] mx-auto gap-x-[0.875rem] gap-y-[2px] max-w-[1440px] 
+	       xxs:w-auto xxs:mx-[1.5rem] xxs:gap-x-[1rem]
+				 sm:grid-cols-8 
+				 md:mx-[2rem] md:gap-x-[1.5rem] 
+				 lg:grid-cols-12 
+				 xl:mx-[max(2rem,calc((100vw-1440px)/2))];
+}
+
+@utility sans-14 {
+	@apply font-sans text-[0.875rem] leading-[1.5rem] tracking-[-0.006em];
+}
+
+@utility sans-16 {
+	@apply font-sans text-[1rem] leading-[1.5rem] tracking-[-0.011em];
+}
+
+@utility sans-18 {
+	@apply font-sans text-[1.125rem] leading-[1.5rem] tracking-[-0.014em];
+}
+
+@utility serif-16 {
+	@apply font-serif text-[1.125rem] leading-[1.5rem];
+}
+
+@utility serif-18 {
+	@apply font-serif text-[1.25rem] leading-[1.5rem];
 }
