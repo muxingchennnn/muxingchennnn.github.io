@@ -15,11 +15,4 @@
 {@render children()}
 
 <style>
-	@font-face {
-		font-family: "Romie";
-		font-style: italic;
-		font-display: swap;
-		font-weight: 400;
-		src: url($lib/fonts/Romie-Italic.woff2) format("woff2");
-	}
 </style>
