@@ -2,11 +2,18 @@
 	// import Grid from "$lib/components/Grid.svelte";
 	import Intro from "$lib/components/Intro.svelte";
 	import Works from "$lib/components/Works.svelte";
-	import { smoothScroll } from "$lib/utils/lenis";
+	import { lenis, smoothScroll } from "$lib/utils/lenis";
+	import { onMount } from "svelte";
+
+	onMount(() => {
+		lenis.on("scroll", (e) => {
+			console.log(e);
+		});
+	});
 </script>
 
-<div class="h-16"></div>
 <!-- <Grid /> -->
+<div class="h-16"></div>
 <main use:smoothScroll>
 	<Intro />
 	<div class="h-32"></div>
