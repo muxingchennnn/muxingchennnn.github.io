@@ -71,11 +71,11 @@
 }
 
 @utility sans-14 {
-	@apply font-sans text-[0.875rem] leading-[1.2em] tracking-[-0.006em];
+	@apply font-sans text-[0.875rem] leading-[1.5rem] tracking-[-0.006em];
 }
 
 @utility sans-16 {
-	@apply font-sans text-[1rem] leading-[1.2em] tracking-[-0.011em];
+	@apply font-sans text-[1rem] leading-[1.5rem] tracking-[-0.011em];
 }
 
 @utility sans-18 {
