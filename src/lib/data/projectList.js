@@ -7,13 +7,15 @@ import jsLogo from "$lib/assets/logo-js.svg";
 import htmlLogo from "$lib/assets/logo-html.svg";
 import cssLogo from "$lib/assets/logo-css.svg";
 import illustratorLogo from "$lib/assets/logo-illustrator.svg";
+import indeisgnLogo from "$lib/assets/logo-indesign.svg";
 import fimgaLogo from "$lib/assets/logo-figma.svg";
 import visualPerceptionMapURL from "$lib/assets/A Concept Map of Visual Perception.pdf";
+import bookURL from "$lib/assets/A Brief History of Hurricanes.pdf";
 
 export const projectList = [
 	{
 		title: "B++: Insects As Proxies of Biodiversity",
-		types: ["Scrollytelling"],
+		types: ["Scrollytelling", "Web Design & Development"],
 		techs: [
 			{ techName: "SvelteKit", techLogo: svelteLogo },
 			{ techName: "GSAP", techLogo: gsapLogo },
@@ -73,6 +75,15 @@ export const projectList = [
 		types: ["Concept Map"],
 		techs: [{ techName: "Adobe Illustrator", techLogo: illustratorLogo }],
 		url: visualPerceptionMapURL
+	},
+	{
+		title: "A Brief History of Hurricanes",
+		types: ["Book Design", "Static Visualization"],
+		techs: [
+			{ techName: "Adobe Illustrator", techLogo: illustratorLogo },
+			{ techName: "Adobe Indesign", techLogo: indeisgnLogo }
+		],
+		url: bookURL
 	}
 
 	// {

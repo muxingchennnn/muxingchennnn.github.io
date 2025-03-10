@@ -1,15 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-	font-family: "Romie";
-	font-style: italic;
-	font-display: swap;
-	font-weight: 400;
-	src:
-		url($lib/fonts/Romie-Italic.woff2) format("woff2"),
-		url($lib/fonts/Romie-Italic.woff) format("woff");
-}
-
 @layer base {
 	:root {
 		--breakpoint-xxs: 360px;
@@ -70,6 +60,10 @@
 				 md:mx-[2rem] md:gap-x-[1.5rem] 
 				 lg:grid-cols-12 
 				 xl:mx-[max(2rem,calc((100vw-1440px)/2))];
+}
+
+@utility sans-10 {
+	@apply font-sans text-[0.625rem] leading-[1rem] tracking-[0.01em];
 }
 
 @utility sans-12 {
