@@ -20,7 +20,7 @@
 		letter-spacing: -0.011em;
 		font-optical-sizing: auto;
 		text-rendering: optimizeLegibility;
-		/* -webkit-font-smoothing: antialiased; */
+		-webkit-font-smoothing: antialiased;
 		/* -moz-osx-font-smoothing: grayscale; */
 	}
 }
@@ -62,16 +62,28 @@
 				 xl:mx-[max(2rem,calc((100vw-1440px)/2))];
 }
 
+@utility sans-12 {
+	@apply font-sans text-[0.75rem] leading-[1rem] tracking-[0em];
+}
+
 @utility sans-14 {
-	@apply font-sans text-[0.875rem] leading-[1.5rem] tracking-[-0.006em];
+	@apply font-sans text-[0.875rem] leading-[1.2em] tracking-[-0.006em];
 }
 
 @utility sans-16 {
-	@apply font-sans text-[1rem] leading-[1.5rem] tracking-[-0.011em];
+	@apply font-sans text-[1rem] leading-[1.2em] tracking-[-0.011em];
 }
 
 @utility sans-18 {
 	@apply font-sans text-[1.125rem] leading-[1.5rem] tracking-[-0.014em];
+}
+
+@utility sans-24 {
+	@apply font-sans text-[1.5rem] leading-[2rem] tracking-[-0.019em];
+}
+
+@utility sans-32 {
+	@apply font-sans text-[2rem] leading-[2.5rem] tracking-[-0.021em];
 }
 
 @utility serif-16 {
