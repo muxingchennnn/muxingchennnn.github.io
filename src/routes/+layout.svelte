@@ -3,6 +3,7 @@
 	import "$lib/styles/fonts.css";
 	import "lenis/dist/lenis.css";
 	import { windowWidth } from "$lib/globalStates.svelte";
+	import { lenis, smoothScroll } from "$lib/utils/lenis";
 
 	let { children } = $props();
 </script>
@@ -14,7 +15,9 @@
 		<li><a href="/resume">Resume</a></li>
 	</ul>
 </nav>
-{@render children()}
+<main use:smoothScroll>
+	{@render children()}
+</main>
 
 <style>
 </style>
