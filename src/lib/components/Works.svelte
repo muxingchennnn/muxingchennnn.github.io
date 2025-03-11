@@ -7,7 +7,9 @@
 </script>
 
 <section class="grid-ctn">
-	<p class="font-display col-span-full">Selected Works</p>
+	<p class="font-display col-span-full mb-[0.2em] text-[1.125rem] leading-none lg:text-[1.5rem]">
+		Selected Work
+	</p>
 	{#each projectList as project, i (i)}
 		<!-- project outer wrapper -->
 		<div
@@ -32,7 +34,7 @@
 					>{project.title}</a
 				>
 				<!-- project type -->
-				<div class="project-type flex flex-wrap gap-x-[0.8em]">
+				<div class="project-type -mt-0.5 flex flex-wrap gap-x-[0.8em]">
 					{#each project.types as type}
 						<span class="text-nowrap text-gray-500">#{type}</span>
 					{/each}
@@ -75,9 +77,9 @@
 
 	/* prettier-ignore */
 	.tech-chip {
-    @apply flex items-center gap-[2px]
-           sans-12
+    @apply flex items-center gap-[2px] px-[0.4em] py-[0.1em]
+           sans-10
            lg:sans-14
-           rounded-sm border border-gray-300 bg-gray-200/60 px-[0.4em] backdrop-blur-sm;
+           rounded-sm border border-gray-300 bg-gray-200/60 backdrop-blur-sm;
   }
 </style>
