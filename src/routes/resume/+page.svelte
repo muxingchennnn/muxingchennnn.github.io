@@ -88,7 +88,7 @@
 <div class="h-16"></div>
 
 <!-- Header-->
-<section class="resume-grid space-y-1">
+<section class="resume-grid space-y-1 sm:space-y-2">
 	<h1 class="col-span-full">Muxing Chen</h1>
 	<h2 class="col-span-full">Visualization Researcher, Designer & Developer</h2>
 </section>
@@ -165,7 +165,7 @@
 	}
 
 	h2 {
-		@apply font-display text-[1rem] text-balance text-gray-500 sm:text-[1.25rem];
+		@apply font-display text-[1rem] text-balance text-gray-500 sm:text-[1.5rem];
 	}
 
 	h3 {
