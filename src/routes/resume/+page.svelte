@@ -24,7 +24,7 @@
 		<a
 			href={itemUrl ?? "#"}
 			target="_blank"
-			class={itemUrl ? "underline-offset-[0.2em] hover:underline" : "cursor-default"}
+			class={itemUrl ? "underline-offset-[0.25em] hover:underline" : "cursor-default"}
 			onclick={(e) => {
 				if (!itemUrl) e.preventDefault();
 			}}>{itemName}</a
@@ -56,7 +56,7 @@
 	{#snippet itemDescription(itemDescription)}
 		<p class="sans-16 font-[300] text-gray-900">
 			{#each itemDescription as descriptionText, i (i)}
-				- {descriptionText}<br />
+				- {@html descriptionText}<br />
 			{/each}
 		</p>
 	{/snippet}
@@ -170,5 +170,9 @@
 
 	h3 {
 		@apply text-[0.875rem] tracking-[0.6em] text-nowrap text-gray-500;
+	}
+
+	a {
+		@apply;
 	}
 </style>

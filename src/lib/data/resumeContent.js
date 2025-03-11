@@ -9,7 +9,7 @@ export const resumeContent = [
 				location: "Cambridge, MA",
 				description: [
 					"Collaborated with researchers to refine storylines and interaction techniques in website mockups.",
-					"Designed and developed a scrollytelling website for an urban study paper in the lab."
+					"Designed and developed a <a href='https://senseable.mit.edu/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>scrollytelling website</a> for an urban study paper in the lab."
 				],
 				url: "https://senseable.mit.edu/"
 			},
@@ -19,8 +19,8 @@ export const resumeContent = [
 				date: "Jul 2023 - Dec 2023",
 				location: "San Francisco, CA",
 				description: [
-					"Created a concept map of Figma to provide users with a clear overview of the application.",
-					"Developed conceptual models for Figma, Sketchpad and early versions of Illustrator to foster understanding of 2D drawing applications.",
+					"Created a <a href='https://www.figma.com/design/PcW67YqcnwyzwfZsT7HfDB/All-Things-Figma?node-id=297-4134&t=n9iqb6Ou7FOY1dTp-0' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>concept map</a> of Figma to provide users with a clear overview of the application.",
+					"Developed <a href='https://www.figma.com/design/PcW67YqcnwyzwfZsT7HfDB/All-Things-Figma?node-id=273-7173&t=Xupc0USwGPf1HXNP-1' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>conceptual models</a> for Figma, Sketchpad and early versions of Illustrator to foster understanding of 2D drawing applications.",
 					"Conducted extensive research and attempted to develop a more robust theory for design systems."
 				],
 				url: "https://www.dubberly.com/"
@@ -38,7 +38,7 @@ export const resumeContent = [
 				location: "Boston, MA",
 				description: [
 					"Performed topic modeling and preliminary visual analytics on the NSF awards dataset using Bertopic and Tableau.",
-					"Prototyped a streamlined interface that allows users to search for awards efficiently and delightfully."
+					"Prototyped a streamlined <a href='https://nsf-search-interface.vercel.app/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>interface</a> that allows users to search for awards efficiently and delightfully."
 				]
 			},
 			{
