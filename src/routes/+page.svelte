@@ -2,6 +2,7 @@
 	// import Grid from "$lib/components/Grid.svelte";
 	import Intro from "$lib/components/Intro.svelte";
 	import Works from "$lib/components/Works.svelte";
+	import NoiseBackground from "$lib/components/NoiseBackground.svelte";
 	import { lenis, smoothScroll } from "$lib/utils/lenis";
 	import { onMount } from "svelte";
 
@@ -12,6 +13,7 @@
 	});
 </script>
 
+<NoiseBackground />
 <!-- <Grid /> -->
 <div class="h-16"></div>
 <Intro />
