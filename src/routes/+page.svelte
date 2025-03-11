@@ -6,20 +6,18 @@
 	import { onMount } from "svelte";
 
 	onMount(() => {
-		lenis.on("scroll", (e) => {
-			console.log(e);
-		});
+		// lenis.on("scroll", (e) => {
+		// 	console.log(e);
+		// });
 	});
 </script>
 
 <!-- <Grid /> -->
 <div class="h-16"></div>
-<main use:smoothScroll>
-	<Intro />
-	<div class="h-32"></div>
-	<Works />
-	<!-- <Works /> -->
-</main>
+<Intro />
+<div class="h-32"></div>
+<Works />
+<!-- <Works /> -->
 <div class="h-64"></div>
 
 <style>
