@@ -171,8 +171,4 @@
 	h3 {
 		@apply text-[0.875rem] tracking-[0.6em] text-nowrap text-gray-500;
 	}
-
-	a {
-		@apply;
-	}
 </style>
