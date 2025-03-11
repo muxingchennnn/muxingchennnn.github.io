@@ -165,7 +165,7 @@
 	}
 
 	h2 {
-		@apply font-display text-[1.25rem] text-balance text-gray-500;
+		@apply font-display text-[1rem] text-balance text-gray-500 sm:text-[1.25rem];
 	}
 
 	h3 {
