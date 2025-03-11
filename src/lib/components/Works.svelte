@@ -14,8 +14,7 @@
 		<!-- project outer wrapper -->
 		<div
 			role="listitem"
-			class="border-t border-gray-400 py-[1.5rem] lg:py-[2rem]"
-			class:col-span-6={windowWidth.value >= 1024}
+			class="border-t border-gray-400 py-[1.5rem] lg:col-span-8 lg:col-start-1 lg:py-[2rem]"
 			class:col-span-full={windowWidth.value < 1024}
 			onmouseover={() => (hoveredProject = project)}
 			onmouseleave={() => (hoveredProject = null)}
