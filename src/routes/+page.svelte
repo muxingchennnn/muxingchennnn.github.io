@@ -13,7 +13,7 @@
 	});
 </script>
 
-<NoiseBackground />
+<!-- <NoiseBackground /> -->
 <!-- <Grid /> -->
 <div class="h-16"></div>
 <Intro />
