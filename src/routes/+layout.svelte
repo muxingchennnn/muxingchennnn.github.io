@@ -14,7 +14,7 @@
 
 <ViewTransition />
 <Nav />
-<main use:smoothScroll>
+<main use:smoothScroll class="relative overflow-x-hidden">
 	{@render children()}
 </main>
 
