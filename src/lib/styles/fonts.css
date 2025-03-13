@@ -33,8 +33,7 @@
 	font-style: italic;
 	font-display: swap;
 	font-weight: 400;
-	src:
-		url($lib/fonts/Romie-Italic.woff2) format("woff2"),
-		url($lib/fonts/Romie-Italic.otf) format("opentype");
-	/* url($lib/fonts/Romie-Italic.woff) format("woff"); */
+	src: url("../fonts/Romie-Italic.woff2") format("woff2");
+	/* url("../fonts/Romie-Italic.otf") format("opentype"); */
+	/* url($lib/fonts/Romie-Italic.woff2) format("woff2"); */
 }
