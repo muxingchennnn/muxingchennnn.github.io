@@ -1,4 +1,4 @@
-export const resumeContent = [
+export const resumeData = [
 	{
 		section: "EXPERIENCE",
 		items: [
