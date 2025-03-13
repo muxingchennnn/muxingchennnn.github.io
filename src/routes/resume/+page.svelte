@@ -85,14 +85,15 @@
 	</div>
 {/snippet}
 
-<NoiseBackground />
+<!-- <NoiseBackground /> -->
 <!-- <Grid /> -->
 <div class="h-16"></div>
 <!-- Header-->
 <section class="resume-grid space-y-1 sm:space-y-2">
 	<h1 class="col-span-full">Muxing Chen</h1>
 	<h2 class="col-span-full">
-		Visualization <span style:view-transition-name="identity">Researcher, Designer & Developer</span
+		Visualization&nbsp;<span style:view-transition-name="identity"
+			>Researcher, Designer & Developer</span
 		>
 	</h2>
 </section>
