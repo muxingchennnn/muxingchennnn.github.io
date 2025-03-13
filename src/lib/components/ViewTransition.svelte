@@ -8,6 +8,8 @@
 			document.startViewTransition(async () => {
 				resolve();
 				await navigation.complete;
+
+				// console.log("navigation complete. Could add animation now.");
 			});
 		});
 	});
