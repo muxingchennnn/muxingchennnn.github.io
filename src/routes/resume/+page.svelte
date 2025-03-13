@@ -1,6 +1,6 @@
 <script>
 	// import Grid from "$lib/components/Grid.svelte";
-	import { resumeContent } from "$lib/data/resumeContent";
+	import { resumeData } from "$lib/data/resumeData";
 	import NoiseBackground from "$lib/components/NoiseBackground.svelte";
 </script>
 
@@ -91,11 +91,14 @@
 <!-- Header-->
 <section class="resume-grid space-y-1 sm:space-y-2">
 	<h1 class="col-span-full">Muxing Chen</h1>
-	<h2 class="col-span-full">Visualization Researcher, Designer & Developer</h2>
+	<h2 class="col-span-full">
+		Visualization <span style:view-transition-name="identity">Researcher, Designer & Developer</span
+		>
+	</h2>
 </section>
 <!-- Sections-->
 <section class="resume-grid items-baseline">
-	{#each resumeContent as sectionContent, i (i)}
+	{#each resumeData as sectionContent, i (i)}
 		<!-- Section Dividers-->
 		{@render sectionDivider(sectionContent.section)}
 
@@ -166,7 +169,7 @@
 	}
 
 	h2 {
-		@apply font-display text-[1rem] text-balance text-gray-500 sm:text-[1.5rem];
+		@apply font-display text-[1.125rem] text-balance text-gray-500 sm:text-[1.5rem];
 	}
 
 	h3 {
