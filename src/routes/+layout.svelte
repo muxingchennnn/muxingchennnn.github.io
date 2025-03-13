@@ -21,18 +21,18 @@
 <style>
 	/* These properties seem bypass Svelte's default CSS scoping */
 	::view-transition-old(root) {
-		animation: 200ms cubic-bezier(0, 0, 0.2, 1) both fade-out;
+		animation: 300ms cubic-bezier(0, 0, 0.2, 1) both fade-out;
 		/* animation: 1.5s cubic-bezier(0.87, 0, 0.13, 1) both move-out; */
 	}
 
 	::view-transition-new(root) {
 		/* duration / delay / timing-function / fill-mode / keyframes */
-		animation: 1s 700ms cubic-bezier(0, 0, 0.2, 1) both fade-in;
+		animation: 1s 800ms cubic-bezier(0, 0, 0.2, 1) both fade-in;
 		/* animation: 1.5s cubic-bezier(0.87, 0, 0.13, 1) both move-in; */
 	}
 
 	::view-transition-group(identity) {
-		animation-delay: 200ms;
+		animation-delay: 300ms;
 		animation-duration: 500ms;
 		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 		animation-fill-mode: both;
