@@ -1,5 +1,11 @@
 <script>
-	import { page } from "$app/state";
+	import { page, navigating } from "$app/state";
+	import { lenis } from "$lib/utils/lenis";
+	import { goto } from "$app/navigation";
+
+	let window;
+
+	$inspect(navigating);
 
 	const navBarTabs = [
 		{ path: "/", label: "Work" },
@@ -7,26 +13,53 @@
 		{ path: "/resume", label: "Resume" }
 		// { path: "/gallery", label: "Gallery" }
 	];
+
+	const smoothScrollAndNavigate = async (path) => {
+		// Return if already at top
+		if (window.scrollY === 0) {
+			await goto(path);
+			return;
+		}
+
+		// Scroll then navigate
+		await new Promise((resolve) => {
+			const handleScroll = ({ _isScrolling }) => {
+				if (!_isScrolling && window.scrollY === 0) {
+					lenis.off("scroll", handleScroll);
+					resolve();
+				}
+			};
+
+			lenis.on("scroll", handleScroll);
+			lenis.scrollTo(0, { duration: 0.5 });
+		});
+
+		await goto(path);
+	};
 </script>
 
+<svelte:window bind:this={window} />
 <nav
 	class="card-style sticky top-0 z-50 mx-auto flex w-full justify-between px-6 py-4"
-	style:view-transition-name="navBar"
+	style:view-transition-name="nav-bar"
 >
 	<div>Logo</div>
 	<div class="flex gap-8">
-		{#each navBarTabs as { path, label }}
+		{#each navBarTabs as tab (tab.label)}
 			<a
 				class="relative"
-				class:page-indicator={page.url.pathname === path}
-				href={path}
+				class:page-indicator={page.url.pathname === tab.path}
+				aria-current={page.url.pathname === tab.path}
+				href={tab.path}
 				onclick={(e) => {
-					if (page.url.pathname === path) {
-						e.preventDefault();
+					e.preventDefault();
+					console.log(page.url.pathname, tab.path);
+					if (page.url.pathname !== tab.path) {
+						smoothScrollAndNavigate(tab.path);
 					}
 				}}
 			>
-				{label}
+				{tab.label}
 			</a>
 		{/each}
 	</div>
