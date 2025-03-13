@@ -92,9 +92,9 @@
 }
 
 @utility serif-16 {
-	@apply font-serif text-[1.125rem] leading-[1.5rem];
+	@apply font-serif text-[1rem] leading-[1.5rem];
 }
 
 @utility serif-18 {
-	@apply font-serif text-[1.25rem] leading-[1.5rem];
+	@apply font-serif text-[1.125rem] leading-[1.5rem];
 }
