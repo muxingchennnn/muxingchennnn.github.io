@@ -1,6 +1,4 @@
 <script>
-	import { windowWidth, windowHeight } from "$lib/globalStates.svelte";
-
 	let { baseFrequencyValue = 0.8, numOctavesValue = 3 } = $props();
 </script>
 

@@ -1,6 +1,6 @@
 <script>
 	import { projectList } from "$lib/data/projectList";
-	import { windowWidth } from "$lib/globalStates.svelte";
+	import { innerWidth } from "svelte/reactivity/window";
 
 	let hoveredProject = $state(null);
 	// $inspect(hoveredProject);
@@ -15,7 +15,7 @@
 		<div
 			role="listitem"
 			class="border-t border-gray-400 py-[1.5rem] lg:col-span-8 lg:col-start-1 lg:py-[2rem]"
-			class:col-span-full={windowWidth.value < 1024}
+			class:col-span-full={innerWidth < 1024}
 			onmouseover={() => (hoveredProject = project)}
 			onmouseleave={() => (hoveredProject = null)}
 			onfocus={() => (hoveredProject = project)}
