@@ -29,7 +29,7 @@
 
 <svelte:window bind:innerWidth={width} />
 <div class="grid-ctn">
-	{#each Array(columns) as _, index}
+	{#each Array(columns), index}
 		<div class="col-span-1 bg-gray-500 text-center text-base font-bold">
 			Col{index + 1}
 		</div>
