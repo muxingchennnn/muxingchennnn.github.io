@@ -1,4 +1,6 @@
 <script>
+	import { innerWidth } from "svelte/reactivity/window";
+
 	let columns = $state(0);
 	let width = $state(400);
 
@@ -23,11 +25,10 @@
 	}
 
 	$effect(() => {
-		updateColumns(width);
+		updateColumns(innerWidth.current);
 	});
 </script>
 
-<svelte:window bind:innerWidth={width} />
 <div class="grid-ctn">
 	{#each Array(columns), index}
 		<div class="col-span-1 bg-gray-500 text-center text-base font-bold">
