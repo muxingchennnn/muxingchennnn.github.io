@@ -1,11 +1,13 @@
 <script>
 	import { projectList } from "$lib/data/projectList";
 	import { innerWidth } from "svelte/reactivity/window";
+	// import Grid from "./Grid.svelte";
 
 	let hoveredProject = $state(null);
-	// $inspect(hoveredProject);
+	// $inspect(innerWidth.current);
 </script>
 
+<!-- <Grid /> -->
 <section class="grid-ctn">
 	<p class="font-display col-span-full mb-[0.2em] text-[1.125rem] leading-none lg:text-[1.5rem]">
 		Selected Work
@@ -14,8 +16,7 @@
 		<!-- project outer wrapper -->
 		<div
 			role="listitem"
-			class="border-t border-gray-400 py-[1.5rem] lg:col-span-8 lg:col-start-1 lg:py-[2rem]"
-			class:col-span-full={innerWidth < 1024}
+			class="col-span-full col-start-1 border-t border-gray-400 py-[1.5rem] sm:col-span-6 lg:col-span-8 lg:py-[2rem]"
 			onmouseover={() => (hoveredProject = project)}
 			onmouseleave={() => (hoveredProject = null)}
 			onfocus={() => (hoveredProject = project)}
