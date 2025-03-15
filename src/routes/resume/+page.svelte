@@ -1,8 +1,28 @@
 <script>
-	// import Grid from "$lib/components/Grid.svelte";
-	import { resumeData } from "$lib/data/resumeData";
+	import Grid from "$lib/components/Grid.svelte";
 	import NoiseBackground from "$lib/components/NoiseBackground.svelte";
+	import Resume from "$lib/components/Resume.svelte";
 </script>
+
+<!-- <NoiseBackground /> -->
+<!-- <Grid /> -->
+<Resume
+	{header}
+	{sectionDivider}
+	{itemName}
+	{itemDateFloat}
+	{itemTitleAndDescription}
+	{itemSkills}
+/>
+
+{#snippet header()}
+	<h1 class="col-span-full">Muxing Chen</h1>
+	<h2 class="col-span-full">
+		Visualization&nbsp;<span style:view-transition-name="identity"
+			>Researcher, Designer & Developer</span
+		>
+	</h2>
+{/snippet}
 
 {#snippet sectionDivider(sectionName)}
 	<div class="col-span-full mt-4 mb-2 grid grid-cols-subgrid items-center first:mt-8 sm:mb-4">
@@ -84,75 +104,6 @@
 		</p>
 	</div>
 {/snippet}
-
-<!-- <NoiseBackground /> -->
-<!-- <Grid /> -->
-<div class="h-16"></div>
-<!-- Header-->
-<section class="resume-grid space-y-1 sm:space-y-2">
-	<h1 class="col-span-full">Muxing Chen</h1>
-	<h2 class="col-span-full">
-		Visualization&nbsp;<span style:view-transition-name="identity"
-			>Researcher, Designer & Developer</span
-		>
-	</h2>
-</section>
-<!-- Sections-->
-<section class="resume-grid items-baseline">
-	{#each resumeData as sectionContent, i (i)}
-		<!-- Section Dividers-->
-		{@render sectionDivider(sectionContent.section)}
-
-		<!-- Experience Section -->
-		{#if sectionContent.section === "EXPERIENCE"}
-			{#each sectionContent.items as item, i (i)}
-				{@render itemName(item.company, item.url)}
-				{@render itemDateFloat(item.date, item.location)}
-				{@render itemTitleAndDescription(item.title, item.date, item.description)}
-			{/each}
-		{/if}
-
-		<!-- Research Section -->
-		{#if sectionContent.section === "RESEARCH"}
-			{#each sectionContent.items as item, i (i)}
-				{#if i < 1}
-					{@render itemName(item.institution, item.url)}
-				{/if}
-				{@render itemDateFloat(item.date, item.location)}
-				{@render itemTitleAndDescription(item.title, item.date, item.description)}
-			{/each}
-		{/if}
-
-		<!-- Education Section -->
-		{#if sectionContent.section === "EDUCATION"}
-			{#each sectionContent.items as item, i (i)}
-				{@render itemName(item.institution, item.url)}
-				{@render itemDateFloat(item.date, item.location)}
-				{@render itemTitleAndDescription(item.degree, item.date, item.description)}
-			{/each}
-		{/if}
-
-		<!-- Skills Section -->
-		{#if sectionContent.section === "SKILLS"}
-			{#each sectionContent.items as item, i (i)}
-				{@render itemName(item.skillType, item.url)}
-				<!-- {@render itemDateFloat(item.skillType)} -->
-				{@render itemSkills(item.skills)}
-			{/each}
-		{/if}
-
-		<!-- Leadership Section -->
-		{#if sectionContent.section === "ECs"}
-			{#each sectionContent.items as item, i (i)}
-				{@render itemName(item.organization, item.url)}
-				{@render itemDateFloat(item.date, item.location)}
-				{@render itemTitleAndDescription(item.title, item.date, item.description)}
-			{/each}
-		{/if}
-	{/each}
-</section>
-
-<div class="h-48"></div>
 
 <style>
 	@reference "../../app.css";
