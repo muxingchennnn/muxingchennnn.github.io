@@ -9,16 +9,6 @@
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<link
-		rel="preload"
-		as="font"
-		href="$lib/fonts/Romie-Italic.woff2"
-		type="font/woff2"
-		crossorigin="anonymous"
-	/>
-</svelte:head>
-
 <ViewTransition />
 <Nav />
 <main use:smoothScroll class="relative overflow-x-hidden">
