@@ -10,12 +10,12 @@
 	<div
 		class="col-span-full col-start-1 flex w-fit flex-col gap-[clamp(0.125rem,calc(-0.1667rem_+_1.2963vw),1rem)]"
 	>
-		<p class="header font-display text-wrap">
+		<p class="header font-display text-wrap italic">
 			<span style:view-transition-name="identity">Researcher, Designer & Developer</span>
 		</p>
 		<!-- <div class="hr"></div> -->
 		<p class="last-line self-end font-[200] text-(--color-gray-500)">
-			among many other <span class="font-display hightlight text-(--color-foreground)"
+			among many other <span class="font-display hightlight text-(--color-foreground) italic"
 				>pursuits</span
 			>
 		</p>
