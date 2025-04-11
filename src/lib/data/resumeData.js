@@ -55,9 +55,9 @@ export const resumeData = [
 			{
 				institution: "Northeastern University",
 				title:
-					"MFA Thesis: The Whole Is Other Than The Sum Of Its Parts: A framework for classifying and deconstructing composite visualization",
+					"(MFA Thesis) The Whole Is Other Than The Sum Of Its Parts: A framework for classifying and deconstructing composite visualization",
 				supervisor: "Paolo Ciuccarelli",
-				date: "Sept 2022 - Apr 2023",
+				date: "Sep 2022 - Apr 2023",
 				location: "Boston, MA",
 				description: [
 					"Formulated a framework that identifies ten composition patterns for combining multiple visualizations to form a cohesive whole (composite visualization) in the same visual space, based on spatial and data relations between component visualizations."
@@ -71,14 +71,14 @@ export const resumeData = [
 			{
 				institution: "Northeastern University",
 				degree: "PhD in Interdisciplinary Design and Media",
-				date: "Sept 2024 -",
+				date: "Sep 2024 -",
 				location: "Boston, MA",
 				description: []
 			},
 			{
 				institution: "Northeastern University",
 				degree: "MFA in Information Design and Data Visualization",
-				date: "Sept 2021 - May 2024",
+				date: "Sep 2021 - May 2024",
 				location: "Boston, MA",
 				description: []
 			},
@@ -92,7 +92,7 @@ export const resumeData = [
 			{
 				institution: "Southwestern University of Finance and Economics",
 				degree: "BBA in Accounting",
-				date: "Sept 2015 - Jun 2018",
+				date: "Sep 2015 - Jun 2018",
 				location: "Chengdu, China",
 				description: []
 			}
