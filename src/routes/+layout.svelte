@@ -16,13 +16,13 @@
 </main>
 
 <style>
-	@font-face {
+	/* @font-face {
 		font-family: "Romie";
 		font-style: italic;
 		font-display: swap;
 		font-weight: 400;
 		src: url("$lib/fonts/Romie-Italic.woff2");
-	}
+	} */
 
 	/* These properties seem bypass Svelte's default CSS scoping */
 	::view-transition-old(root) {
