@@ -99,7 +99,7 @@
 	>
 		<p class="sans-16 font-[300] text-pretty text-gray-900">
 			{#each skills as skill, i (i)}
-				<span>{i !== skills.length ? `${skill}, ` : `${skill}`}</span>
+				<span>{i !== skills.length - 1 ? `${skill}, ` : `${skill}`}</span>
 			{/each}
 		</p>
 	</div>
@@ -117,7 +117,7 @@
 	}
 
 	h1 {
-		@apply text-[2rem] font-[700];
+		@apply text-[2rem] font-[700] tracking-[-0.021em];
 	}
 
 	h2 {
