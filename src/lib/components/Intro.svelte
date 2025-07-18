@@ -3,7 +3,9 @@
 		Hi, I'm <span class="text-(--color-foreground)">Muxing Chen</span>
 	</p>
 	<!-- <div class="hr"></div> -->
-	<p class="header col-span-full col-start-1 w-full text-[4rem] font-bold text-nowrap">
+	<p
+		class="header col-span-full col-start-1 w-full text-[4rem] font-bold tracking-[-0.022em] text-nowrap"
+	>
 		Information Visualization
 	</p>
 	<!-- <div class="bg-foreground h-[1px] w-full"></div> -->
