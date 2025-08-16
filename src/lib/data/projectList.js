@@ -32,7 +32,7 @@ export const projectList = [
 			{ techName: "D3.js", techLogo: d3Logo },
 			{ techName: "Tailwind CSS", techLogo: tailwindcssLogo }
 		],
-		url: "https://us-hurricane-landfalls.vercel.app/"
+		url: "https://us-hurricane-landfalls-v3.vercel.app/"
 	},
 	{
 		title: "Societal Shifts & Literary Evolution Go Hand in Hand",

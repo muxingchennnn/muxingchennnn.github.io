@@ -9,9 +9,9 @@ export const resumeData = [
 				location: "Cambridge, MA",
 				description: [
 					"Collaborated with researchers to refine storylines and interaction techniques in website mockups.",
-					"Designed and developed a <a href='https://senseable.mit.edu/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>scrollytelling website</a> for an urban study paper in the lab."
+					"Designed and developed a <a href='https://senseable.mit.edu/b++/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>scrollytelling website</a> for an urban study paper in the lab."
 				],
-				url: "https://senseable.mit.edu/b++/"
+				url: "https://senseable.mit.edu/"
 			},
 			{
 				company: "Dubberly Design Office",
