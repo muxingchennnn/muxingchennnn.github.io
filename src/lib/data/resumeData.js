@@ -8,8 +8,8 @@ export const resumeData = [
 				date: "Jul 2024 - Aug 2024",
 				location: "Cambridge, MA",
 				description: [
-					"Collaborated with researchers to refine storylines and interaction techniques in website mockups.",
-					"Designed and developed a <a href='https://senseable.mit.edu/b++/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>scrollytelling website</a> for an urban study paper in the lab."
+					"Collaborated with researchers to refine storylines and visual effects through iterative website mockups.",
+					"Designed and developed a <a href='https://senseable.mit.edu/b++/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>scrollytelling website</a> to present findings from an urban studies research paper."
 				],
 				url: "https://senseable.mit.edu/"
 			},
@@ -20,8 +20,8 @@ export const resumeData = [
 				location: "San Francisco, CA",
 				description: [
 					"Created a <a href='https://www.figma.com/design/PcW67YqcnwyzwfZsT7HfDB/All-Things-Figma?node-id=297-4134&t=n9iqb6Ou7FOY1dTp-0' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>concept map</a> of Figma to provide users with a clear overview of the application.",
-					"Developed <a href='https://www.figma.com/design/PcW67YqcnwyzwfZsT7HfDB/All-Things-Figma?node-id=273-7173&t=Xupc0USwGPf1HXNP-1' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>conceptual models</a> for Figma, Sketchpad and early versions of Illustrator to foster understanding of 2D drawing applications.",
-					"Conducted extensive research and attempted to develop a more robust theory for design systems."
+					"Developed <a href='https://www.figma.com/design/PcW67YqcnwyzwfZsT7HfDB/All-Things-Figma?node-id=273-7173&t=Xupc0USwGPf1HXNP-1' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>conceptual models</a> of Figma, Sketchpad and early versions of Illustrator to illustrate the evolution of 2D drawing applications.",
+					"Conducted extensive research to develop a more robust theory for design systems."
 				],
 				url: "https://www.dubberly.com/"
 			}
@@ -37,8 +37,8 @@ export const resumeData = [
 				date: "Jul 2023 - Dec 2023",
 				location: "Boston, MA",
 				description: [
-					"Performed topic modeling and preliminary visual analytics on the NSF awards dataset using Bertopic and Tableau.",
-					"Prototyped a streamlined <a href='https://nsf-search-interface.vercel.app/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>interface</a> that allows users to search for awards efficiently and delightfully."
+					"Performed topic modeling and visual analytics on the NSF awards dataset using BERTopic and Tableau to identify research topic trends.",
+					"Prototyped a streamlined <a href='https://nsf-search-interface.vercel.app/' target='_blank' class='underline underline-offset-[0.25em] decoration-[1px] decoration-gray-400 hover:decoration-foreground transition-colors duration-300'>interface</a> to improve award search efficiency and user experience."
 				]
 			},
 			{
@@ -48,14 +48,14 @@ export const resumeData = [
 				date: "Aug 2022 - Dec 2023",
 				location: "Boston, MA",
 				description: [
-					"Designed visualizations for patient self-reported data and two interface prototypes for patients and clinicians respectively.",
-					"Proposed a rendering pipeline to automate data narratives that walk patients through their health data."
+					"Designed visualizations for patient self-reported data and two interface prototypes tailored for patients and clinicians to support health data tracking and review.",
+					"Proposed a rendering pipeline to generate data narratives that walk patients through their health information."
 				]
 			},
 			{
 				institution: "Northeastern University",
 				title:
-					"(MFA Thesis) The Whole Is Other Than The Sum Of Its Parts: A framework for classifying and deconstructing composite visualization",
+					"(MFA Thesis) The Whole Is Other Than the Sum of Its Parts: A Framework for Classifying and Deconstructing Composite Visualization",
 				supervisor: "Paolo Ciuccarelli",
 				date: "Sep 2022 - Apr 2023",
 				location: "Boston, MA",
@@ -104,7 +104,7 @@ export const resumeData = [
 			{
 				skillType: "Programming",
 				skills: [
-					"Javascript",
+					"JavaScript",
 					"D3.js",
 					"p5.js",
 					"GSAP (GreenSock)",
@@ -114,7 +114,6 @@ export const resumeData = [
 					"HTML",
 					"CSS",
 					"Tailwind CSS",
-					"Supabase",
 					"Python",
 					"R"
 				]
@@ -138,8 +137,8 @@ export const resumeData = [
 				date: "Nov 2016 - Nov 2017",
 				location: "Chengdu, China",
 				description: [
-					"Developed and implemented an evaluation model to analyze 71 members’ performance and growth.",
-					"Led a 10-member committee to orchestrate a forum attended by 200+ participants from multiple universities across Chengdu."
+					"Developed and implemented an evaluation model to analyze performance and growth across 71 members.",
+					"Led a 10-member committee to organize a forum attended by 200+ participants from multiple universities in Chengdu."
 				]
 			},
 			{
